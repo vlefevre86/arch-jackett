@@ -13,9 +13,6 @@ pacman -S --needed $pacman_packages --noconfirm
 # Build from source
 source /root/build.sh
 
-# set permissions
-chown -R nobody:users /opt/Jackett/ /usr/share/Jackett
-
 # cleanup
 yes|pacman -Scc
 rm -rf /usr/share/locale/*
