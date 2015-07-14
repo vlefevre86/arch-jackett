@@ -4,7 +4,7 @@
 set -e
 
 # define pacman packages
-pacman_packages="mono nuget"
+pacman_packages="mono nuget git"
 
 # install pre-reqs
 pacman -Sy --noconfirm
