@@ -25,5 +25,6 @@ Please replace all user variables in the above command defined by <> with the co
 http://<host ip>:9117
 ```
 
-** Credits ** 
+**Credits** 
+
 Thanks to [binhex](https://github.com/binhex) who provided the base (I stole most of the code ;-) )
