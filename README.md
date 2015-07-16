@@ -14,7 +14,7 @@ docker pull sdesbure/arch-jackett
 **Run container**
 
 ```
-docker run -d -p 9117:9117 --name=<container name> -v <path for config files>:/config -v /etc/localtime:/etc/localtime:ro sdesbure/arch-jackett
+docker run -d -p 9117:9117 --name=<container name> -v <path for config files>:/config -v <path for jackett files>:/opt/Jackett/.config/Jackett -v /etc/localtime:/etc/localtime:ro sdesbure/arch-jackett
 ```
 
 Please replace all user variables in the above command defined by <> with the correct values.
