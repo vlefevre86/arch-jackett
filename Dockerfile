@@ -20,16 +20,14 @@ RUN chmod +x /root/*.sh && \
 # docker settings
 #################
 
-# map /config to host defined config path (used to store configuration from app)
+# map /config to host defined config path (used to store configuration from supervisor)
 VOLUME /config
+
+# map /opt/Jackett/.config/Jackett to host defined config path (used to store configuration from Jackett)
+VOLUME /opt/Jackett/.config/Jackett
 
 # expose port for http
 EXPOSE 9117
-
-# mount /config on the right place
-##################################
-
-CMD mount -o bind /config /opt/Jackett/.config/Jackett
 
 # run supervisor
 ################

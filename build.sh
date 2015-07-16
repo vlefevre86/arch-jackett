@@ -31,9 +31,6 @@ cd /opt/Jackett
 # "install"
 /usr/bin/cp -r /opt/Jackett/src/Jackett/bin/Debug/* /opt/Jackett/
 
-# create config folder if not done
-mkdir -p /opt/Jackett/.config/Jackett/
-
 # put everything as jackett user
 chown -R jackett:jackett /opt/Jackett/
 
