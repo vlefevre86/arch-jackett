@@ -26,6 +26,11 @@ VOLUME /config
 # expose port for http
 EXPOSE 9117
 
+# mount /config on the right place
+##################################
+
+CMD mount -o bind /config /opt/Jackett/.config/Jackett
+
 # run supervisor
 ################
 
