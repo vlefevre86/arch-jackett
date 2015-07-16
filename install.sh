@@ -11,7 +11,7 @@ pacman -Sy --noconfirm
 pacman -S --needed $pacman_packages --noconfirm
 
 # Build from source
-source /root/packer.sh
+source /root/build.sh
 
 # cleanup
 yes|pacman -Scc

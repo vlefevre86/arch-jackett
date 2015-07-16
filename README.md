@@ -3,7 +3,7 @@ Jackett
 
 Jackett - https://github.com/zone117x/Jackett
 
-Latest Jackett git release from Arch Linux AUR using Packer to compile.
+Latest Jackett git release.
 
 **Pull image**
 
