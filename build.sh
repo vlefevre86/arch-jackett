@@ -9,7 +9,7 @@ pacman_packages="git nuget"
 pacman -S --needed $pacman_packages --noconfirm
 
 #grab the source
-/usr/bin/git clone https://github.com/sdesbure/Jackett.git /opt/Jackett
+/usr/bin/git clone https://github.com/zone117x/Jackett.git /opt/Jackett
 
 #create jackett user
 useradd -m -s /bin/bash jackett -d /opt/Jackett
