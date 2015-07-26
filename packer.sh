@@ -35,3 +35,6 @@ pacman -Ru base-devel git --noconfirm
 
 # delete makepkg-user account
 userdel -r makepkg-user
+
+# change ownership of Jackett home
+chown -R jackett:jackett /usr/share/Jackett/

@@ -13,6 +13,9 @@ pacman -S --needed $pacman_packages --noconfirm
 # Build from source
 source /root/build.sh
 
+# Build using packer
+# source /root/packer.sh
+
 # cleanup
 yes|pacman -Scc
 rm -rf /usr/share/locale/*
